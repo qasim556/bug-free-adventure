@@ -92,7 +92,7 @@ answer2 = input("a)Go back to sleep\nb)Go investigate since you brought a knife 
 if answer2.lower() == "a":
     print("You get back into bed hoping everything goes well\n")
     time.sleep(2)
-    print("Lucky for you it does pussy\n")
+    print("Lucky for you it does!\n")
     time.sleep(2)
 
 elif answer2.lower() == "b":
@@ -183,7 +183,7 @@ def victory():
 
 
 print("A slime appears, do you wish to\n")
-answer4 = input("\na)Attack\nb)There is no running b\n")
+answer4 = input("\na)Attack\nb)There is no running this time!\n")
 time.sleep(2)
 if answer4.lower() == "a" or "b":
     print("The battle has begun")
