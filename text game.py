@@ -227,6 +227,7 @@ if answer4.lower() == "a" or "b":
         time.sleep(2)
         victory()
         # runs victory function
+        time.sleep(2)
 
 '''
 else:
